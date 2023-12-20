@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+  <include file="customer_contact_table.xml"/> 
+  <include file="customer_extension_table.xml"/> 
+  <include file="movie_table.xml"/> 
+  <include file="cloud_ingest_log_table.xml"/> 
+  <include file="customer_table.xml"/> 
+  <include file="customer_segment_table.xml"/> 
+  <include file="genre_table.xml"/> 
+  <include file="pizza_location_table.xml"/> 
+  <include file="ext_movie_table.xml"/> 
+  <include file="ext_custsales_table.xml"/> 
+  <include file="time_table.xml"/> 
+  <include file="custsales_table.xml"/> 
+  <include file="fk_custsales_movie_id_ref_constraint.xml"/> 
+  <include file="fk_custsales_cust_id_ref_constraint.xml"/> 
+  <include file="fk_custsales_day_id_ref_constraint.xml"/> 
+  <include file="fk_custsales_genre_id_ref_constraint.xml"/> 
+</databaseChangeLog> 
